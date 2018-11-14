@@ -18,8 +18,8 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 app.use('/contacts', contact);
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
-app.listen(port,() => {
+app.listen(port ,() => {
   console.log("server is up and running on port number"+ port)
 });
