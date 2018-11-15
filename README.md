@@ -36,3 +36,5 @@ The APIs are Basic Authorised.
 Username :test1
 
 Password :test1
+
+Caching layer is handled by Mongo DB
